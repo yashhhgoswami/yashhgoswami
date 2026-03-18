@@ -5,34 +5,23 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
+    title: "RailGuard",
+    category: "IoT Automation",
+    tools: "Firebase, HTML/CSS/JS, MicroPython",
     image: "/images/Solidx.png",
+    links: [
+      { name: "Live Dashboard", url: "https://railguard-dashboard.onrender.com/" },
+      { name: "Live Simulation", url: "https://wokwi.com/projects/430589393822123009" }
+    ]
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
+    title: "YG Motors",
+    category: "Car Sales Platform",
+    tools: "React.js, Tailwind, Firebase",
     image: "/images/radix.png",
-  },
-  {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
-  },
-  {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    links: [
+      { name: "Live Demo", url: "https://yg-motors.vercel.app/" }
+    ]
   },
 ];
 
@@ -112,6 +101,28 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.links && (
+                          <div className="carousel-links" style={{ display: 'flex', gap: '15px', marginTop: '15px' }}>
+                            {project.links.map((link, i) => (
+                              <a 
+                                key={i} 
+                                href={link.url} 
+                                target="_blank" 
+                                rel="noreferrer"
+                                style={{
+                                  color: '#7DC46C',
+                                  textDecoration: 'none',
+                                  fontSize: '14px',
+                                  fontWeight: '500',
+                                  borderBottom: '1px solid currentColor',
+                                  paddingBottom: '2px'
+                                }}
+                              >
+                                {link.name} ↗
+                              </a>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">

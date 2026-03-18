@@ -15,43 +15,25 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Software Developer</h4>
+                <h5>Teachrity</h5>
               </div>
-              <h3>2020</h3>
+              <h3>July 2025 - Present</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Architected and deployed full-stack AI-powered classroom simulation platform using React.js, NestJS, and MongoDB. Engineered WebRTC-based voice communication system.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Quantum Computing Intern</h4>
+                <h5>Defence Research and Development Organisation (DRDO)</h5>
               </div>
-              <h3>2021</h3>
+              <h3>May 2025 - July 2025</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
-              </div>
-              <h3>NOW</h3>
-            </div>
-            <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Focused on photonic quantum computing, studying fundamental concepts and simulating key quantum algorithms like QFT and Bernstein-Vazirani using Perceval.
             </p>
           </div>
         </div>
